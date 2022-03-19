@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    height: 70vw;
+}
+
+body {
+    background-color: #A675A1;
+}
+
+.navbar {
+    background-color: white;
+    width: 90%;
+    margin: 5px auto;
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50rem;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.menu li {
+    position: relative;
+    display: inline-block;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.carrousel {
+    margin-left: 20%;
+}
+
+.descripciontexto p {
+    font-style: italic;
+    font-size: 40px;
+}
+
+footer {
+    background-color: white;
+    width: 90%;
+    margin: 5px auto;
+}
+
+footer ul {
+    list-style: none;
+    margin-left: 90%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.tabla table {
+    position: relative;
+    left: 35%;
+    width: 400px;
+    height: 400px;
+    border: 15px;
+    border-color: black;
+}
+
+.tabla table tr td ul li {
+    list-style: none;
+}
+
+.titulogaleria {
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.subgaleria {
+    font-size: 45px;
+    text-align: center;
+}
+
+.galeria {
+    text-align: center;
+}
+
+.galeria div img {
+    margin: 20px;
+}
+
+.textonosotros {
+    display: inline-block;
+    text-align: right;
+    width: 70%;
+    font-style: italic;
+    font-size: 35px;
+}
+
+.formulario form label {
+    font-size: 25px;
+}
+
+.grid_nosotros {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 20% 5% 1fr 1fr 4%;
+}
+
+header {
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+footer {
+    grid-column: 1 / 3;
+    grid-row: 5;
+}
+
+.titulonosotros {
+    grid-column: 1 / 3;
+    grid grid-row: 2;
+}
+
+.fotonosotros1 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.textonosotros {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.fotonosotros2 {
+    grid-column: 1 / 3;
+    grid-row: 4;
+}
