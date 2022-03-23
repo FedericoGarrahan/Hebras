@@ -14,6 +14,31 @@ body {
     background-color: #A675A1;
 }
 
+.grid_index {
+    display: grid;
+    grid-template-areas: "nav nav nav"
+        "galeria galeria galeria"
+        "foto texto texto"
+        "footer footer footer";
+}
+
+header {
+    grid-area: nav;
+}
+
+.carrousel div {
+    grid-area: galeria;
+}
+.descripcionfoto{
+    grid-area: foto;
+}
+.descripciontexto{
+    grid-area: texto;
+}
+footer{
+    grid-area: footer;
+}
+
 .navbar {
     background-color: white;
     width: 90%;
@@ -22,7 +47,6 @@ body {
 
 .navbar ul {
     list-style: none;
-    display: inline-block;
     margin-left: 50rem;
     font-size: 30px;
     font-weight: bold;
@@ -123,7 +147,7 @@ footer {
 
 .titulonosotros {
     grid-column: 1 / 3;
-    grid grid-row: 2;
+    grid-row: 2;
 }
 
 .fotonosotros1 {
