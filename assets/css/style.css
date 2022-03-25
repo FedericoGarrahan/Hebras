@@ -5,7 +5,8 @@
     text-decoration: none;
     color: black;
 }
-main{
+
+main {
     height: 70vw;
 }
 
@@ -46,7 +47,14 @@ body {
 .descripciontexto p {
     font-style: italic;
     font-size: 40px;
+    /* transition: transform 5s ease-in-out; */
 }
+/* .descripciontexto:hover{
+    transform:rotate(180deg)scale(.5);
+    transition: transform 5s ease-in-out;
+
+} */
+
 
 footer {
     background-color: white;
@@ -59,7 +67,8 @@ footer ul {
     margin-left: 90%;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
-.tabla table{
+
+.tabla table {
     position: relative;
     left: 35%;
     width: 400px;
@@ -67,31 +76,38 @@ footer ul {
     border: 15px;
     border-color: black;
 }
-.tabla table tr td ul li{
+
+.tabla table tr td ul li {
     list-style: none;
 }
-.titulogaleria{
+
+.titulogaleria {
     font-size: 70px;
     font-weight: bolder;
     text-align: center;
 }
-.subgaleria{
-font-size: 45px;
-text-align: center;
-}
-.galeria{
+
+.subgaleria {
+    font-size: 45px;
     text-align: center;
 }
-.galeria div img{
+
+.galeria {
+    text-align: center;
+}
+
+.galeria div img {
     margin: 20px;
 }
-.textonosotros{
+
+.textonosotros {
     display: inline-block;
-text-align: right;
-width: 70%;
-font-style: italic;
-font-size: 35px;
+    text-align: right;
+    width: 70%;
+    font-style: italic;
+    font-size: 35px;
 }
-.formulario form label{
+
+.formulario form label {
     font-size: 25px;
 }
