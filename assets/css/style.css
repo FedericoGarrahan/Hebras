@@ -47,13 +47,13 @@ body {
 .descripciontexto p {
     font-style: italic;
     font-size: 40px;
-    /* transition: transform 5s ease-in-out; */
+    transition: transform 5s ease-in-out;
 }
-/* .descripciontexto:hover{
+.descripciontexto:hover{
     transform:rotate(180deg)scale(.5);
     transition: transform 5s ease-in-out;
 
-} */
+}
 
 
 footer {
