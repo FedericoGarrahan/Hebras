@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hebras Materiales</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <!-- inicio header -->
-    <header>
+    <!-- <header>
         <nav class="navbar">
             <a href="../../index.html" class="logo"><img src="../image/logo2.svg" alt="Logo Hebras"></a>
             <ul class="menu">
@@ -21,66 +23,82 @@
                 <li><a href="../views/contacto.html"> Contacto</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../../index.html" class="logo"><img src="../image/logo2.svg" alt="Logo Hebras"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../views/materiales.html"> Materiales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../views/galeria.html"> Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../views/nosotros.html"> Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../views/contacto.html"> Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <!-- fin header -->
     <!-- inicio main -->
-    <main class="tabla">
-        <table border cellpadding="15px" cellspacing="5px">
-            <tr>
-                <th>Material</th>
-                <th>Pros</th>
-                <th>Contras</th>
-            </tr>
+    <main class="container">
+        <div class="row">
+        <div class="card p-3 col-lg-4" style="width: 18rem;">
+            <img src="../image/totora.jpg" class="card-img-top" alt="Totora">
+            <div class="card-body">
+              <p class="card-text">
+                <h3 class="bold">Totora<br></h3>
+                <h3 class="bold">Ventajas<br></h3>
+                Barato<br>
+                Reciclable<br>
+                Fresco<br>
+                Resistente<br>
+                <h3 class="bold">Desventajas<br></h3>
+                Pesado
+            </p>
+            </div>
 
-            <tr>
-                <td>Totora</td>
-                <td>
-                    <ul>
-                        <li>Barato</li>
-                        <li>Reciclable</li>
-                        <li>Fresco</li>
-                        <li>Resistente</li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Pesado</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>Lana de algodon</td>
-                <td>
-                    <ul>
-                        <li>Barato</li>
-                        <li>Liviano</li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Calurosa</li>
-                        <li>Pica</li>
-                        <li>Poco resistente</li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>Lana acrilica</td>
-                <td>
-                    <ul>
-                        <li>Liviana</li>
-                        <li>Resistente</li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li>Calurosa</li>
-                        <li>Destiñe</li>
-                    </ul>
-                </td>
-            </tr>
+          </div>
+          <div class="card col-lg-4" style="width: 18rem;">
+            <img src="../image/lana de algodon.jpg" class="card-img-top" alt="Lana de Algodon">
+            <div class="card-body">
+              <p class="card-text">
+                <h3 class="bold">Lana de Algodon<br></h3>
+                <h3 class="bold">Ventajas<br></h3>
+                Barato<br>
+                Liviano<br>
+                <h3 class="bold">Desventajas<br></h3>
+                Calurosa<br>
+                Pica<br>
+                Poco Resistente
+            </p>
+            </div>
 
-        </table>
+          </div>
+          <div class="card col-lg-4" style="width: 18rem;">
+            <img src="../image/lana acrilica.jpg" class="card-img-top" alt="Lana Acrilica">
+            <div class="card-body">
+              <p class="card-text">
+                <h3 class="bold">Lana Acrilica<br></h3>
+                <h3 class="bold">Ventajas<br></h3>
+                Liviana<br>
+                Resistente<br>
+                <h3 class="bold">Desventajas<br></h3>
+                Calurosa<br>
+                Destiñe
+              </p>
+            </div>
+          </div>
+        </div>
 
     </main>
     <!-- fin main -->
@@ -93,6 +111,9 @@
         </ul>
     </footer>
     <!-- fin footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
 </body>
 
 </html>
