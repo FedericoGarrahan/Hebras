@@ -9,33 +9,48 @@
 main {
     height: 70vw;
 } */
-html,body {
+html,
+body {
     height: 100%;
     width: 100%;
-    font-family:sans-serif ;
+    font-family: sans-serif;
     color: #222;
 }
-#navbarNav{
+
+#navbarNav {
     justify-content: flex-end;
 }
-.navbar{
+
+.navbar {
     padding: .8rem;
 }
-.navbar-nav li{
+
+.navbar-nav li {
     padding-right: 20px;
 }
-.nav-link{
+
+.nav-link {
     font-size: 1.1em !important;
 }
-.carousel-inner img{
+
+.carousel-inner img {
     width: 100%;
-    
+
 }
+
 body {
     background-color: #A675A1;
 }
-.card{
+
+.card {
     background-color: #A675A1;
+}
+#imagen_index{
+    transition: transform 5s ease-in-out;
+
+}
+#imagen_index:hover{
+    transform:scale(.8);
 }
 
 /* .navbar {
@@ -81,8 +96,13 @@ footer {
 
 footer ul {
     list-style: none;
-    margin-left: 90%;
+    /* margin-left: 90%; */
     font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #222;
 }
 
 /* .tabla table {
