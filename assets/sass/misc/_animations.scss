@@ -1,0 +1,7 @@
+#imagen_index {
+    transition: transform 5s ease-in-out;
+
+    &:hover {
+        transform: scale(.8);
+    }
+}

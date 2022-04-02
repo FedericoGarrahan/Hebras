@@ -1,0 +1,101 @@
+/* Misc*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  color: #222;
+}
+
+body {
+  background-color: #A675A1;
+}
+
+.card {
+  background-color: #A675A1;
+}
+
+#imagen_index {
+  transition: transform 5s ease-in-out;
+}
+
+#imagen_index:hover {
+  transform: scale(0.8);
+}
+
+/* Partials*/
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 20px;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+footer {
+  background-color: white;
+  width: 90%;
+  margin: 5px auto;
+}
+
+footer ul {
+  list-style: none;
+  /* margin-left: 90%; */
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #222;
+}
+
+/* Views*/
+.carousel-inner img {
+  width: 100%;
+}
+
+.descripciontexto p {
+  font-style: italic;
+  font-size: 40px;
+}
+
+.titulogaleria {
+  font-size: 70px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.subgaleria {
+  font-size: 45px;
+  text-align: center;
+}
+
+.galeria {
+  text-align: center;
+}
+
+.galeria div img {
+  margin: 20px;
+}
+
+.textonosotros {
+  display: inline-block;
+  text-align: right;
+  width: 70%;
+  font-style: italic;
+  font-size: 35px;
+}
+
+.formulario form label {
+  font-size: 25px;
+}
