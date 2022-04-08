@@ -1,0 +1,9 @@
+$redes:(ig: #e16db4,
+    yt: #e82323);
+
+@each $red,
+$color in $redes {
+    .btn--#{$red} {
+        color: $color;
+    }
+}

@@ -1,0 +1,12 @@
+@mixin textos ($font) {
+    font-size: $font;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulos{
+    @include textos(80px);
+    font-weight: bold;
+}
+.parrafos{
+    @include textos(40px)
+}
