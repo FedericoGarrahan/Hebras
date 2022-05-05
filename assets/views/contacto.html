@@ -42,18 +42,28 @@
   </nav>
   <!-- fin header -->
   <!-- inicio main -->
-  <main class="formulario">
+  <main class="formulario container w-20 bg-secondary mt-5 mb-5">
     <form action="" method="POST" enctype="">
-      <label for="">Nombre y Apellido:</label><br>
-      <input type="text" name="Nombre y Apellido" id="" placeholder="Nicolas Menini"><br>
-      <label for="">Email:</label><br>
-      <input type="email" name="Email" id="" placeholder="Ejemplo@hotmail.com"><br>
-      <label for="">Telefono:</label><br>
-      <input type="number" name="Numero" id="" placeholder="12345678"><br>
-      <label for="">Consulta:</label><br>
-      <textarea name="textarea" rows="10" cols="50" placeholder="Escriba aqui"></textarea><br>
-      <button type="reset">Resetear</button><br>
-      <button type="submit">Enviar</button>
+      <div>
+        <label class="form-label" for="">Nombre y Apellido:</label><br>
+        <input class="form-control" type="text" name="Nombre y Apellido" id="" placeholder="Nicolas Menini"><br>
+      </div>
+      <div>
+        <label class="form-label" for="">Email:</label><br>
+        <input class="form-control" type="email" name="Email" id="" placeholder="Ejemplo@hotmail.com"><br>
+      </div>
+      <div>
+        <label class="form-label" for="">Telefono:</label><br>
+        <input class="form-control" type="number" name="Numero" id="" placeholder="12345678"><br>
+      </div>
+      <div>
+        <label class="form-label" for="">Consulta:</label><br>
+        <textarea class="form-control" name="textarea" rows="10" cols="50" placeholder="Escriba aqui"></textarea><br>
+      </div>
+      <div class="text-center">
+        <button type="reset">Resetear</button>
+        <button type="submit">Enviar</button>
+      </div>
 
     </form>
   </main>
